@@ -2,7 +2,7 @@ const http = require("http");
 const { PDFDocument, rgb } = require("pdf-lib");
 const QRCode = require("qrcode");
 
-const UPSTREAM = "https://www.mrgt.co/s/httpsroyal-oman-customssailcertificatemrgtco.pdf";
+const UPSTREAM = "https://raw.githubusercontent.com/MRGT2025/zagros-holdings/sailcertificate-direct-pdf/httproyal-oman-customs.sailcertificate.mrgt.co.pdf";
 const PORT = process.env.PORT || 3000;
 const MGTB_URL = "https://royal-oman-customs.sailcertificate.mrgt.co/MGTB";
 
