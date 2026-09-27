@@ -1,0 +1,11 @@
+{
+  "name": "sailcertificate-direct-pdf",
+  "version": "1.1.0",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4"
+  }
+}
